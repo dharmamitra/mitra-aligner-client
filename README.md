@@ -1,6 +1,6 @@
 # MITRA Sentence Aligner lightweight API client
 
-This repository contains the script to align sentences from two text files using the MITRA API. The script reads two text files, splits them into lists of sentences, sends these lists to our API for alignment, and writes the returned data to a TSV file.
+This repository contains the script to align sentences from two text files using the MITRA API to facilitate a more efficient collaboration between the FGS data collection team and MITRA. The script reads two text files, splits them into lists of sentences, sends these lists to our API for alignment, and writes the returned data to a TSV file.
 
 ## Table of Contents
 
