@@ -39,3 +39,7 @@ The script `align.py` takes three command-line parameters:
 Run the script with the required parameters as follows:
 ```bash
 python align.py --input-a <path_to_first_text_file> --input-b <path_to_second_text_file> --output <path_to_output_tsv_file>
+```
+Please be aware that depending on the length of the files, this can take a while to complete. A file with a few hundred lines input and output can take a few minutes, files with thousands of lines can take much longer.  
+The aligner is already using GPUs and optimized for performance, its difficult to make it faster than this! 
+
