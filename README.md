@@ -33,6 +33,7 @@ The script `align.py` takes three command-line parameters:
 - `--input-a`: Path to the first input text file. Each line should be a separate sentence. This can be either Chinese or English.
 - `--input-b`: Path to the second input text file. Each line should be a separate sentence. This can be either Chinese or English.
 - `--output`: Path to the output TSV file.
+The order of the files is not important, i.e. it could be first the Chinese and then the English, or the other way round.  
 
 ### Example
 
