@@ -3,7 +3,7 @@ import json
 import sys
 import argparse
 
-api_url = "https://dharmamitra.org/api-aligner/align-sentences/"
+api_url = "https://dharmamitra.org/api-aligner/align-full-sentences/"
 
 def read_file_to_list(file_path):
     """
