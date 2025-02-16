@@ -30,8 +30,8 @@ This repository contains the script to align sentences from two text files using
 ## Usage
 
 The script `align.py` takes three command-line parameters:
-- `--input-a`: Path to the first input text file. Each line should be a separate sentence. This can be either Chinese or English.
-- `--input-b`: Path to the second input text file. Each line should be a separate sentence. This can be either Chinese or English.
+- `--input-a`: Path to the first input text file. Each line should be a separate sentence. This can be either Chinese or English/Tibetan/Sanskrit.
+- `--input-b`: Path to the second input text file. Each line should be a separate sentence. This can be either Chinese or English/Tibetan/Sanskrit.
 - `--output`: Path to the output TSV file.
   
 The order of the files is not important, i.e. it could be first the Chinese and then the English, or the other way round.  
